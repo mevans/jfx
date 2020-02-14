@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      prefHeight="400.0" prefWidth="600.0"
+      fx:controller="RootController">
+
+    <fx:include fx:id="display" source="features/counter/display/display.fxml"></fx:include>
+    <fx:include fx:id="incrementButton" source="features/counter/incrementbutton/increment_button.fxml"></fx:include>
+</VBox>
